@@ -43,5 +43,68 @@ namespace Leetcode.Tests
             int Expected = 4;
             Assert.AreEqual(Result, Expected);
         }
+
+        [TestMethod()]
+        public void IsMatchTest1()
+        {
+            Solution solution = new Solution();
+            string s = "ss";
+            string p = "s";
+            Assert.AreEqual(false, solution.IsMatch(s, p));
+        }
+
+        [TestMethod()]
+        public void IsMatchTest2()
+        {
+            Solution solution = new Solution();
+            string s = "aa";
+            string p = "aa";
+            Assert.AreEqual(true, solution.IsMatch(s, p));
+        }
+
+        [TestMethod()]
+        public void IsMatchTest3()
+        {
+            Solution solution = new Solution();
+            string s = "aaa";
+            string p = "aa.";
+            Assert.AreEqual(false, solution.IsMatch(s, p));
+        }
+
+        [TestMethod()]
+        public void IsMatchTest4()
+        {
+            Solution solution = new Solution();
+            string s = "aa";
+            string p = "a*";
+            Assert.AreEqual(true, solution.IsMatch(s, p));
+        }
+
+        [TestMethod()]
+        public void IsMatchTest5()
+        {
+            Solution solution = new Solution();
+            string s = "aa";
+            string p = ".*";
+            Assert.AreEqual(true, solution.IsMatch(s, p));
+        }
+
+        [TestMethod()]
+        public void IsMatchTest6()
+        {
+            Solution solution = new Solution();
+            string s = "ab";
+            string p = ".*";
+            Assert.AreEqual(true, solution.IsMatch(s, p));
+        }
+
+        [TestMethod()]
+        public void IsMatchTest7()
+        {
+            Solution solution = new Solution();
+            string s = "aab";
+            string p = "c*a*b";
+            Assert.AreEqual(true, solution.IsMatch(s, p));
+        }
     }
 }

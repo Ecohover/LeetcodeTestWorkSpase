@@ -461,27 +461,26 @@ namespace Leetcode
         /// <returns></returns>
         public bool IsMatch(string s, string p)
         {
-            if (s == "" && p == "") return true;
-            if (p.Length >= 2)
+            bool Result = true;
+            if (p.Length == 0 && s.Length == 0) Result = true;
+            else if (p.Length == 0 && s.Length == 1) Result = false;
+            else if (p.Length == 1 && s.Length == 0) Result = false;
+            else if (p.Length == 1 && s.Length == 1) Result = (p[0] == s[0]) || p[0] == '.';
+            else if (p.Length > 2)
             {
-                if (p[1] == '*')
-                {
-
-                }
-                else
-                {
-
-                }
-
 
             }
             else
             {
+
             }
-
-
-            return false;
+            return Result;
         }
+
+
+        
+
+
         #endregion
 
         #region 11. Container With Most Water
@@ -988,7 +987,8 @@ namespace Leetcode
             int min = 0;
             int max = maxlenght - 1;
             int cut = GetCut(max, min);
-
+            if (nums[max] < target) return max + 1;
+            else if (nums[min] >= target) return min;
             while (max - min > 1)
             {
                 if (target > nums[cut]) min = cut;
