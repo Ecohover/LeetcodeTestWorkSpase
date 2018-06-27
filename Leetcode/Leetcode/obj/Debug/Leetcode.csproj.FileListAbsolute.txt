@@ -1,5 +1,0 @@
-D:\02_Test\LeetcodeTestWorkSpase2\Leetcode\Leetcode\bin\Debug\Leetcode.dll
-D:\02_Test\LeetcodeTestWorkSpase2\Leetcode\Leetcode\bin\Debug\Leetcode.pdb
-D:\02_Test\LeetcodeTestWorkSpase2\Leetcode\Leetcode\obj\Debug\Leetcode.csproj.CoreCompileInputs.cache
-D:\02_Test\LeetcodeTestWorkSpase2\Leetcode\Leetcode\obj\Debug\Leetcode.dll
-D:\02_Test\LeetcodeTestWorkSpase2\Leetcode\Leetcode\obj\Debug\Leetcode.pdb
