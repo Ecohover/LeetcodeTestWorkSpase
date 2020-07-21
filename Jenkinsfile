@@ -15,6 +15,7 @@ pipeline {
                 }
                 bat """
                 cd src
+				dotnet restore
                 dotnet build
                 """
             }
