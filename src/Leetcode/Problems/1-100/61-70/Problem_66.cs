@@ -28,7 +28,7 @@ namespace Leetcode.Problems
                 }
             }
             temp.Reverse();
-            return temp.ToArray<int>();
+            return temp.ToArray();
         }
     }
 }

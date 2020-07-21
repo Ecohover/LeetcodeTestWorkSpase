@@ -26,12 +26,12 @@
                         {
                             if (board[i, j] == board[i, cj]) return false;
                         }
-                        int Zoomi = i / 3;
-                        int Zoomj = j / 3;
+                        int Zonei = i / 3;
+                        int Zonej = j / 3;
 
-                        for (int zi = Zoomi * 3; zi < Zoomi * 3 + 3; zi++)
+                        for (int zi = Zonei * 3; zi < Zonei * 3 + 3; zi++)
                         {
-                            for (int zj = Zoomj * 3; zj < Zoomj * 3 + 3; zj++)
+                            for (int zj = Zonej * 3; zj < Zonej * 3 + 3; zj++)
                             {
                                 if (i != zi && j != zj)
                                 {
