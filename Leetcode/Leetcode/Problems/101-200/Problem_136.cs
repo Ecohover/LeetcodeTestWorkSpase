@@ -19,6 +19,5 @@
             }
             return result;
         }
-# endre
     }
 }

@@ -1,0 +1,6 @@
+D:\git\LeetcodeTestWorkSpase\Leetcode\Leetcode\obj\Debug\Leetcode.csproj.AssemblyReference.cache
+D:\git\LeetcodeTestWorkSpase\Leetcode\Leetcode\obj\Debug\Leetcode.csproj.CoreCompileInputs.cache
+D:\git\LeetcodeTestWorkSpase\Leetcode\Leetcode\bin\Debug\Leetcode.dll
+D:\git\LeetcodeTestWorkSpase\Leetcode\Leetcode\bin\Debug\Leetcode.pdb
+D:\git\LeetcodeTestWorkSpase\Leetcode\Leetcode\obj\Debug\Leetcode.dll
+D:\git\LeetcodeTestWorkSpase\Leetcode\Leetcode\obj\Debug\Leetcode.pdb

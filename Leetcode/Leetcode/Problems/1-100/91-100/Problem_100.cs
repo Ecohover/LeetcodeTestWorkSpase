@@ -7,7 +7,7 @@ namespace Leetcode.Problems
     /// Given two binary trees, write a function to check if they are equal or not.
     /// Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
     /// </summary>
-    public static class Problem_100
+    public class Problem_100
     {
         public static bool IsSameTree(TreeNode p, TreeNode q)
         {

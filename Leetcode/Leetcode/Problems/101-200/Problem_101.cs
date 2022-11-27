@@ -48,8 +48,7 @@ namespace Leetcode.Problems
         {
             if (p == null && q == null) return true;
             if (p == null || q == null) return false;
-            if (p.val == q.val) return Problem_100.IsSameTree(p.left, q.right) && Problem_100.IsSameTree(p.right, q.left);
-            else return false;
+            return p.val == q.val ? Problem_100.IsSameTree(p.left, q.right) && Problem_100.IsSameTree(p.right, q.left) : false;
         }
     }
 }

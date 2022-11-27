@@ -18,8 +18,7 @@ namespace Leetcode.Problems
     {
         public IList<string> GenerateParenthesis(int n)
         {
-
+            return null;
         }
     }
-}
 }
